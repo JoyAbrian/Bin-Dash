@@ -101,8 +101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashType: 0
-  fallSpeed: 1
-  score: 1
+  scoreToCollect: 1
+  scoreToSpawn: 0
 --- !u!50 &3413054101926940836
 Rigidbody2D:
   serializedVersion: 4
