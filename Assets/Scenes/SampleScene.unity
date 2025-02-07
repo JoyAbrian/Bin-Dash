@@ -513,7 +513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4229880879475709395, guid: d541918980a91f045a1c68d799623820, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.4299998
+      value: -3.55
       objectReference: {fileID: 0}
     - target: {fileID: 4229880879475709395, guid: d541918980a91f045a1c68d799623820, type: 3}
       propertyPath: m_LocalPosition.z
@@ -942,7 +942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5612820128777768683, guid: 67889f0f870e55747b20a5d9715fb4ec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.43
+      value: -3.55
       objectReference: {fileID: 0}
     - target: {fileID: 5612820128777768683, guid: 67889f0f870e55747b20a5d9715fb4ec, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1013,13 +1013,15 @@ MonoBehaviour:
   wastePrefabs:
   - {fileID: 6472981082810951254, guid: 5087c1a0ea6ca924c995a00f5ae4a890, type: 3}
   - {fileID: 8608199400610067026, guid: b871a37a80f3ade4e8e1a8af4f7bfa31, type: 3}
+  - {fileID: 576132234188759072, guid: bd223d374dd2afd47a6b2f03c8f43c5e, type: 3}
   spawnPoints:
   - {fileID: 536114994}
   - {fileID: 1198984655}
   - {fileID: 211236110}
   - {fileID: 1988927107}
   - {fileID: 1805019577}
-  spawnInterval: 1
+  baseSpawnInterval: 1
+  minSpawnInterval: 0.2
 --- !u!4 &1550342175
 Transform:
   m_ObjectHideFlags: 0
@@ -1184,7 +1186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2201172234136039153, guid: b2cdc0012d0d7864b9cd354cb1acfe90, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.4299998
+      value: -3.55
       objectReference: {fileID: 0}
     - target: {fileID: 2201172234136039153, guid: b2cdc0012d0d7864b9cd354cb1acfe90, type: 3}
       propertyPath: m_LocalPosition.z

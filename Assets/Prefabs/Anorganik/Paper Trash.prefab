@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d74e2b389bd5e84c9ecf5504cb8b916, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trashType: 0
-  scoreToCollect: 1
+  trashType: 1
+  scoreToCollect: 5
   scoreToSpawn: 0
 --- !u!50 &3413054101926940836
 Rigidbody2D:
