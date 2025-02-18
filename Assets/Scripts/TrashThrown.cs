@@ -15,7 +15,7 @@ public class TrashThrown : MonoBehaviour
             }
             else
             {
-                GlobalVariables.score += Mathf.FloorToInt(scoreToAdd * 0.2f);
+                GlobalVariables.lives--;
                 Destroy(gameObject);
             }
         }
