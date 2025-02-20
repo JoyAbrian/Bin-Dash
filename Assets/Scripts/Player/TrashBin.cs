@@ -6,6 +6,22 @@ public class TrashBin : MonoBehaviour
     public TrashType trashType;
 
     [Header("UI")]
-    public Sprite trashBinSprite;
-    public Sprite trashBinOpenSprite;
+    public GameObject trashBin;
+    public GameObject trashBinOpen;
+
+    public void OnDrag()
+    {
+        GetComponent<CapsuleCollider2D>().enabled = false;
+
+        trashBin.SetActive(false);
+        trashBinOpen.SetActive(true);
+    }
+
+    public void OnDrop()
+    {
+        GetComponent<CapsuleCollider2D>().enabled = true;
+
+        trashBin.SetActive(true);
+        trashBinOpen.SetActive(false);
+    }
 }

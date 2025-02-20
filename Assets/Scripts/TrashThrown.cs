@@ -1,23 +1,21 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Trash))]
 public class TrashThrown : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.CompareTag("TrashCan"))
+        if (other.CompareTag("Trash"))
         {
-            int scoreToAdd = GetComponent<Trash>().scoreToCollect;
-            if (collision.GetComponent<TrashBin>().trashType.ToString() == GetComponent<Trash>().trashType.ToString())
+            int scoreToAdd = other.GetComponent<Trash>().scoreToCollect;
+            if (GetComponentInParent<TrashBin>().trashType.ToString() == other.GetComponent<Trash>().trashType.ToString())
             {
                 GlobalVariables.score += scoreToAdd;
-                Destroy(gameObject);
             }
             else
             {
                 GlobalVariables.lives--;
-                Destroy(gameObject);
             }
+            Destroy(other.gameObject);
         }
     }
 }

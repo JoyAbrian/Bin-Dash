@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2314582536565140731}
   - component: {fileID: 8295084675191435652}
   - component: {fileID: 5670432976720445414}
-  - component: {fileID: 5148962904744107328}
   - component: {fileID: 576132234188759072}
   m_Layer: 0
   m_Name: Lamp
@@ -160,18 +159,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5148962904744107328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146961426783536624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ad0e31853e560848a61ca870134609e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &576132234188759072
 MonoBehaviour:
   m_ObjectHideFlags: 0

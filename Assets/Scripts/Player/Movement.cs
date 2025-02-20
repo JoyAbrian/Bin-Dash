@@ -10,11 +10,12 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
+        GetComponent<TrashBin>().OnDrop();
+
         mainCamera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 1;
 
-        // Calculate screen bounds in world space
         Vector3 bottomLeft = mainCamera.ViewportToWorldPoint(new Vector3(0, 0, 0));
         Vector3 topRight = mainCamera.ViewportToWorldPoint(new Vector3(1, 1, 0));
 
@@ -25,6 +26,8 @@ public class Movement : MonoBehaviour
     {
         if (isDragging)
         {
+            GetComponent<TrashBin>().OnDrag();
+
             Vector3 touchPos = mainCamera.ScreenToWorldPoint(Input.GetTouch(0).position);
             touchPos.z = 0;
             transform.position = ClampPosition(touchPos + offset);
@@ -50,6 +53,7 @@ public class Movement : MonoBehaviour
         {
             isDragging = false;
             rb.gravityScale = 1;
+            GetComponent<TrashBin>().OnDrop();
         }
     }
 
