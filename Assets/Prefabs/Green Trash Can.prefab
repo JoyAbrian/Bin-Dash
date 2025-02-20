@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6524880676079589142}
   - component: {fileID: 212145237226484489}
   - component: {fileID: 2463262570485440616}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trash Destroy
   m_TagString: TrashCan
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8700269372606112084}
   - component: {fileID: 2391594188470524867}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Open Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573637052611493451}
   - component: {fileID: 1564632768653737048}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Open Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1206487256073507348}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trash Open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3069462129967819516}
   - component: {fileID: 1806205480843143482}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Open Collider (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 5670087354342667907}
   - component: {fileID: 7688086284493433781}
   - component: {fileID: 6531618133644750511}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Green Trash Can
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -499,7 +499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5596837533191019427}
   - component: {fileID: 7723946551043279016}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Open Collider (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7197814935725968393}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trash Close
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -607,7 +607,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6621869469763543925}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Collider Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -642,7 +642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2421655398027069362}
   - component: {fileID: 4721393953807997362}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Open Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -726,7 +726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7141232590739905434}
   - component: {fileID: 2228127304806972188}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Close Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

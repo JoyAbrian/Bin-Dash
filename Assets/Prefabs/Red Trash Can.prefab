@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4592320715182604576}
   - component: {fileID: 6085771856832627993}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Open Collider (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4008710082173458182}
   - component: {fileID: 3175602139630716438}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Open Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4960935906194107927}
   - component: {fileID: 1774306219004578550}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Open Collider (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6191962394605489966}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trash Open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,7 +276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8682595877350975835}
   - component: {fileID: 4611602766695647930}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Open Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,7 +363,7 @@ GameObject:
   - component: {fileID: 2735257292705828166}
   - component: {fileID: 1975333653193871633}
   - component: {fileID: 1338590882760475706}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Red Trash Can
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -486,7 +486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2403487308412169048}
   - component: {fileID: 1788145257074324006}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Close Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6700315827298748912}
   - component: {fileID: 7159721314492124595}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Open Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -653,7 +653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8763792442903212977}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trash Close
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -687,7 +687,7 @@ GameObject:
   - component: {fileID: 7711859603588545479}
   - component: {fileID: 3729636934526788571}
   - component: {fileID: 4506467025098365048}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trash Destroy
   m_TagString: TrashCan
   m_Icon: {fileID: 0}
@@ -775,7 +775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4525589630650797363}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Collider Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
