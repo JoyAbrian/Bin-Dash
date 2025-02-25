@@ -392,7 +392,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.92}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -403,7 +403,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.01, y: 1.58}
+  m_Size: {x: 6.01, y: 2.7}
   m_EdgeRadius: 0
 --- !u!114 &333841132
 MonoBehaviour:
@@ -1367,9 +1367,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wastePrefabs:
-  - {fileID: 6472981082810951254, guid: 5087c1a0ea6ca924c995a00f5ae4a890, type: 3}
-  - {fileID: 8608199400610067026, guid: b871a37a80f3ade4e8e1a8af4f7bfa31, type: 3}
-  - {fileID: 576132234188759072, guid: bd223d374dd2afd47a6b2f03c8f43c5e, type: 3}
+  - {fileID: 2127494993989555502, guid: 61d0ae5f493877c4ab6a0c857e9737b0, type: 3}
+  - {fileID: 8616623945662624773, guid: 6a3dcd0e469d54441a2211d170ecd275, type: 3}
+  - {fileID: 2004818229144565185, guid: 0d79a8608fc2fe34ba55c7a6a7df88bb, type: 3}
+  - {fileID: 5258018529232606916, guid: ea62198356b77f847bc8cf3dbb6cd5fc, type: 3}
+  - {fileID: 2135862230064017411, guid: 671ad0bf4dcbd2748b44eb79d787cd28, type: 3}
+  - {fileID: 7689055349462155760, guid: 5bfe423c47c020f4b8fa883b26e1a989, type: 3}
+  - {fileID: 3050010634346479879, guid: 361df339e926e694286b31f331a84aa1, type: 3}
+  - {fileID: 1896247256352684719, guid: 85c0844627b598e439348c12c209d4c8, type: 3}
+  - {fileID: 7744670082891675707, guid: cd8d75e3aa65c6f45a3d920d65f4fac1, type: 3}
+  - {fileID: 8327820339064580275, guid: b1703c85b97a8c84b9b4b4e8474aaec5, type: 3}
+  - {fileID: 2509950105211495601, guid: c37004cdbf7e1bd46a031590a78b2ccf, type: 3}
+  - {fileID: 5977589792969725171, guid: b54ff94e87a8a404db7ae0a943073dc4, type: 3}
+  - {fileID: 9104770781155910501, guid: 498c6504a57ab9f42ac70be104886c6d, type: 3}
+  - {fileID: 5102361616249606834, guid: acb7b3301d857f04384131b931cbf031, type: 3}
+  - {fileID: 4649091740435191358, guid: 6d688953943c6c24b9d97052fc37527b, type: 3}
+  - {fileID: 8412166934087656778, guid: 1664f4a1e46edb84fad3aea1b021b1a0, type: 3}
+  - {fileID: 3499633792796938681, guid: e36498101a00d8947b9453be04c89b51, type: 3}
+  - {fileID: 6252275069079978903, guid: add71e0ca85500b4f932fd4372f576be, type: 3}
+  - {fileID: 5819974742196331794, guid: aa0bee391f00d714d9622a74f1a34183, type: 3}
+  - {fileID: 8932014588955887338, guid: 0068b3f02f5f6d7448ffa3b90e20ed18, type: 3}
+  - {fileID: 2594024649176474352, guid: aed074797d8b33a4cbfb2b10c11a68f8, type: 3}
+  - {fileID: 4224680787384700003, guid: 6584d4d30f981a640a364e1cc1e01e5b, type: 3}
+  - {fileID: 7545510514491691953, guid: a18a0f47752d8e74a868eb6111b7dddb, type: 3}
+  - {fileID: 5829114794605873956, guid: 0dd24dbab728dfa4fa8344affceb9dd8, type: 3}
   spawnPoints:
   - {fileID: 383290158}
   - {fileID: 1957680842}

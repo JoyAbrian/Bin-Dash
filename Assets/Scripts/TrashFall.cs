@@ -7,6 +7,7 @@ public class TrashFall : MonoBehaviour
         if (other.CompareTag("Trash"))
         {
             other.isTrigger = false;
+            other.gameObject.GetComponent<TrashRotate>().enabled = false;
             GlobalVariables.lives--;
         }
     }
