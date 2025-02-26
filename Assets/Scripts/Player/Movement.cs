@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour
     private Vector2 screenBounds;
     private int activeTouchId = -1;
 
-    private static Movement currentDraggingObject = null; 
+    private static Movement currentDraggingObject = null;
 
     void Start()
     {
@@ -62,7 +62,7 @@ public class Movement : MonoBehaviour
             case TouchPhase.Moved:
                 if (isDragging && touch.fingerId == activeTouchId)
                 {
-                    rb.MovePosition(ClampPosition(touchPos + offset));
+                    MoveObject(touchPos);
                 }
                 break;
 
@@ -87,7 +87,7 @@ public class Movement : MonoBehaviour
         }
         else if (Input.GetMouseButton(0) && isDragging)
         {
-            rb.MovePosition(ClampPosition(mousePos + offset));
+            MoveObject(mousePos);
         }
         else if (Input.GetMouseButtonUp(0) && isDragging)
         {
@@ -101,15 +101,25 @@ public class Movement : MonoBehaviour
         offset = transform.position - position;
         rb.velocity = Vector2.zero;
         rb.gravityScale = 0;
+        rb.isKinematic = true; // Disable physics interactions
+        col.enabled = false; // Temporarily disable collision
         trashBin.OnDrag();
 
         currentDraggingObject = this;
+    }
+
+    private void MoveObject(Vector3 position)
+    {
+        Vector3 clampedPos = ClampPosition(position + offset);
+        rb.position = clampedPos; // Directly set position without MovePosition
     }
 
     private void StopDragging()
     {
         isDragging = false;
         rb.gravityScale = 1;
+        rb.isKinematic = false; // Enable physics interactions
+        col.enabled = true; // Re-enable collision
         trashBin.OnDrop();
         activeTouchId = -1;
 
